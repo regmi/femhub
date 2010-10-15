@@ -490,7 +490,7 @@ def run_lab():
     """
     print "Starting Online lab at http://localhost:8000/. Press CTRL+C to kill it"
     print
-    cmd("onlinelab core start --home=$SPKG_LOCAL/share/onlinelab/core-home")
+    cmd("onlinelab core start --no-auth --home=$SPKG_LOCAL/share/onlinelab/core-home")
     cmd("onlinelab service start --home=$SPKG_LOCAL/share/onlinelab/service-home")
     try:
         wait_for_ctrl_c()
