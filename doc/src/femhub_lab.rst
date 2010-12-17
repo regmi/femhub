@@ -1,6 +1,9 @@
 How to Use FEMhub Online Lab
 ============================
-FEMhub online lab can be used on your local machine, after you install the FEMhub package. Alternatively, if you do not want to download and install anything you can use FEMhub online lab hosted in the `server of hp-FEM group at University of Nevada, Reno <http://lab.femhub.org/>`_.
+FEMhub online lab can be used on your local machine, after you install the
+FEMhub package. Alternatively, if you do not want to download and install
+anything you can use FEMhub online lab hosted in the `server of hp-FEM group at
+University of Nevada, Reno <http://lab.femhub.org/>`_ (UNR).
 
 FEMhub Online Lab in the Server at UNR
 ---------------------------------------------------------------
@@ -28,12 +31,15 @@ to solve finite element problems via the internet. Feel free to adjust the
 existing worksheets to fit your own needs. We are working on expanding the
 possibilities.
 
+To write your own code in Python and evaluate, click the **"New Worksheet"**
+button in the online lab "Browser".
+
 
 FEMhub Online Lab on Your Local Machine
 ---------------------------------------
 
 First download and Install FEMhub following the instructions elsewhere on the documentation.
-Then go to the femhub top directory, and just execute **./femhub** from the command line, 
+Then go to the femhub top directory, and just execute **./femhub** from the command line,
 and after that type **lab()**.
 ::
     $ ./femhub
@@ -44,10 +50,11 @@ and after that type **lab()**.
     In [1]: lab()
 
 Then open your web browser at http://localhost:8000/
+
 .. image:: img/femhub_lab.png
    :align: center
-   :width: 600
-   :height: 400
+   :width: 800
+   :height: 600
    :alt: Screenshot of FEMhub Online Lab
 
 After you create an account and log in you will see a desktop like interface
@@ -95,9 +102,10 @@ to open a new worksheet. In the text input window of the worksheet copy-paste th
     # Example 5 (problems with flat functions)
     newton(x**8., 8.*x**7., x, 1, 1e-8)
 
-Click "Evaluate" button and you get the output below the input box.
-.. image:: img/worksheet.png
+Click "Evaluate" button and you will see the output below the input box.
+
+.. image:: img/femhub_lab/worksheet.png
    :align: center
-   :width: 600
-   :height: 400
+   :width: 800
+   :height: 600
    :alt: Screenshot of FEMhub Online Lab

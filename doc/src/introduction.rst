@@ -16,14 +16,14 @@ Our mailing list is an active place where you should get all answers quickly.
 
 The best way of reading this tutorial is to run the code at the same time.
 After making your way through the tutorial, you may want to view the published
-worksheets. After you go to the `online lab<http://lab.femhub.org>`_ click the
+worksheets. After you go to the `online lab <http://lab.femhub.org>`_ click the
 "Published worksheets" button at the bottom of the login window. There are a
 variety of examples that may help you to get started. If you
 create an interesting model using FEMhub packages, let us know and we
 will be happy to add it to the existing examples.
 
 The source code of FEMhub can be viewed in the `git repository <http://git.hpfem.org/femhub.git>`_.
-All the default packages of FEMhub (including the FEM Engines, Online Lab and
+All the default packages of FEMhub (including the FEM Engines, Online Lab, and
 computing and visualization libraries) can be viewed and downloaded at `this page <http://femhub.org/codes.php>`_.
 The binaries of FEMhub can be downloaded from `here <http://femhub.org/pub>`_.
 
