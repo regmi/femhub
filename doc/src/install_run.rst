@@ -146,8 +146,7 @@ from the command line, and type lab() after that.
     ----------------------------------------------------------------------
     In [1]: lab()
 
-and a browser will start with the web notebook. If the browser does not 
-start automatically, just type this in your browser: http://localhost:8000/
+Then point your browser to http://localhost:8000/
 
 .. image:: img/femhub_lab.png
    :align: center
