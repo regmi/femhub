@@ -22,8 +22,8 @@ Building from Sources
 ---------------------
 You can get the tarball of sources `here <http://femhub.org/pub/>`_. The most
 recent stable version is femhub-0.9.9 but you can try our latest beta version
-which contains the new verion of the online lab.
-Please follow the following instructions to build from sources for different operating systems.
+which contains the new version of the online lab.
+Please follow the instructions below to build from sources for different operating systems.
 
 Linux Distributions
 ~~~~~~~~~~~~~~~~~~~
@@ -45,7 +45,8 @@ For example in Ubuntu Linux you can do
 
 2. Extract the tarball:
 ::
-      \$ tar xf femhub-0.9.10.beta1.tar
+
+  \$ tar xf femhub-0.9.10.beta1.tar
 
 3. cd into the  femhub directory and type make:
 ::
@@ -74,7 +75,7 @@ WARNING: If "gcc -v" outputs 4.0.0, you  *must* upgrade XCode (free from Apple),
 2. Extract the tarball:
 ::
 
-  \$ tar -xf femhub-0.9.9-*.tar
+  \$ tar xf femhub-0.9.9-*.tar
 
 3. cd into the femhub directory and type make:
 ::
@@ -85,7 +86,7 @@ WARNING: If "gcc -v" outputs 4.0.0, you  *must* upgrade XCode (free from Apple),
 Microsoft Windows
 ~~~~~~~~~~~~~~~~~
 
-1. Make sure you have the dependencies and 2GB free disk space.
+Make sure you have the dependencies and 2GB free disk space.
 
 Download and install the Linux emulator Cygwin from `here <http://www.cygwin.com/>`_ (the small icon in the top-right corner). While running setup.exe, you need to install
 ::
